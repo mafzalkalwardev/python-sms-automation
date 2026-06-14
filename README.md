@@ -32,6 +32,10 @@ The system reads phone numbers and names from an Excel file and sends customized
 
 \## Screenshots
 
+## Screenshots
+
+![Application screenshot](docs/screenshots/app.png)
+
 ## Features
 
 \- Bulk SMS automation
