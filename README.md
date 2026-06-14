@@ -10,22 +10,11 @@ Documented · MIT licensed · Maintained
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
 
-[Features](#-features) · [Quick Start](#-quick-start) · [Screenshots](#-screenshots) · [Contributing](CONTRIBUTING.md)
-
 </div>
 
 ---
 
-## 🖼 Screenshots
-
-![Python Sms Automation screenshot](docs/screenshots/placeholder.svg)
-
-*Replace `docs/screenshots/placeholder.svg` with real app screenshots.*
-
----
-
 ## 🐍 Contribution graph
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mafzalkalwardev/python-sms-automation/output/snake-dark.svg" />
@@ -33,28 +22,17 @@ Documented · MIT licensed · Maintained
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/mafzalkalwardev/python-sms-automation/output/snake.svg" />
 </picture>
 
-
 ---
 
 \# Python SMS Automation
 
-
-
 A Python-based SMS automation tool built with PyAutoGUI and Excel integration for sending personalized SMS messages automatically.
-
-
 
 The system reads phone numbers and names from an Excel file and sends customized SMS messages using desktop automation.
 
-
-
 \## Screenshots
 
-![python-sms-automation dashboard](docs/screenshots/app.png)
-
 ## Features
-
-
 
 \- Bulk SMS automation
 
@@ -74,11 +52,7 @@ The system reads phone numbers and names from an Excel file and sends customized
 
 \- Desktop automation using PyAutoGUI
 
-
-
 \## Tech Stack
-
-
 
 \- Python
 
@@ -90,11 +64,7 @@ The system reads phone numbers and names from an Excel file and sends customized
 
 \- Excel Automation
 
-
-
 \## Project Structure
-
-
 
 ```text
 
@@ -112,25 +82,15 @@ python-sms-automation/
 
 ```
 
-
-
 \## Excel File Format
 
-
-
 Your `phones.xlsx` file should contain:
-
-
 
 | Phone | Name |
 
 |------|------|
 
-
-
 Example:
-
-
 
 | Phone | Name |
 
@@ -138,15 +98,9 @@ Example:
 
 | 1234567890 | John |
 
-
-
 \## Installation
 
-
-
 Install required packages:
-
-
 
 ```bash
 
@@ -154,11 +108,7 @@ pip install pandas openpyxl pyautogui
 
 ```
 
-
-
 \## How to Run
-
-
 
 ```bash
 
@@ -166,61 +116,32 @@ python sms\_sender.py
 
 ```
 
-
-
 \## Features Overview
-
-
 
 \### Personalized SMS
 
-
-
 Each message dynamically inserts the recipient name.
-
-
 
 \### Excel Integration
 
-
-
 Contacts are automatically loaded from Excel spreadsheets.
-
-
 
 \### Cooldown System
 
-
-
 Automatic delays between messages help reduce spam detection.
-
-
 
 \### Error Handling
 
-
-
 Invalid numbers and sending errors are safely handled.
-
-
 
 \## Security Note
 
-
-
 Do not upload private contact lists publicly.
-
-
 
 \## Author
 
-
-
 Muhammad Afzal Kalwar
-
-
 
 GitHub:
 
 @mafzalkalwardev
-
