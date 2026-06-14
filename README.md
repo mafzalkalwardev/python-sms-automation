@@ -48,7 +48,11 @@ The system reads phone numbers and names from an Excel file and sends customized
 
 
 
-\## Features
+\## Screenshots
+
+![python-sms-automation dashboard](docs/screenshots/app.png)
+
+## Features
 
 
 
